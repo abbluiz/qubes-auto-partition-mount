@@ -1,6 +1,11 @@
 #!/bin/bash
 
-# TODO: verify root; verify dmount
+if hash dunmount 2>/dev/null; then
+    echo "dunmount detected."
+else
+    echo "dunmount must be installed to run this script."
+    echo "Please visit https://github.com/abbluiz/dmount for instructions."
+fi
 
 defaultConfigFolder="$HOME/.config/qubes-auto-mount"
 
