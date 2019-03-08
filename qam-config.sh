@@ -2,7 +2,7 @@
 
 defaultConfigFolder="$HOME/.config/qubes-auto-mount"
 
-./qam-config-defaults.sh
+qam-config-defaults
 
 source "$defaultConfigFolder/dev-labels.conf"
 source "$defaultConfigFolder/dev-uuids.conf"
