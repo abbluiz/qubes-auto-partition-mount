@@ -3,7 +3,7 @@
 if hash dmount 2>/dev/null; then
     echo "dmount detected."
 else
-    echo "dmount must be installed to run this script."
+    echo "dmount not found; it must be installed to run this script."
     echo "Please visit https://github.com/abbluiz/dmount for instructions."
 fi
 

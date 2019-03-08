@@ -39,6 +39,8 @@ if [[ $1 == "add" && $# == 3 ]]; then
 
         echo "Device with uuid \"$3\" will now mount automatically when attached. Restart your qube to see changes."
 
+    else
+        echo "Invalid arguments."
     fi
 
 elif [[ $1 == "del" && $# == 3 ]]; then
@@ -113,6 +115,22 @@ elif [[ $1 == "del" && $# == 3 ]]; then
 
         echo "Device with uuid \"$3\" will not be mounted automatically when attached anymore. Restart your qube to see changes."
 
+    else
+        echo "Invalid arguments."
     fi
 
+elif [[ $1 == "list" && $# == 1 ]]; then
+    #TODO
+elif [[ $1 == "list" && $# == 2 ]]; then
+
+    if [ $2 == "label" ]; then
+        #TODO
+    elif [ $2 == "uuid" ]; then
+        #TODO
+    else
+        echo "Invalid arguments."
+    fi
+
+else
+    echo "Invalid arguments."
 fi

@@ -3,7 +3,7 @@
 if hash dunmount 2>/dev/null; then
     echo "dunmount detected."
 else
-    echo "dunmount must be installed to run this script."
+    echo "dunmount not found; it must be installed to run this script."
     echo "Please visit https://github.com/abbluiz/dmount for instructions."
 fi
 
