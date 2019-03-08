@@ -121,12 +121,15 @@ elif [[ $1 == "del" && $# == 3 ]]; then
 
 elif [[ $1 == "list" && $# == 1 ]]; then
     #TODO
+    exit 0
 elif [[ $1 == "list" && $# == 2 ]]; then
 
     if [ $2 == "label" ]; then
         #TODO
+        exit 0
     elif [ $2 == "uuid" ]; then
         #TODO
+        exit 0
     else
         echo "Invalid arguments."
     fi
