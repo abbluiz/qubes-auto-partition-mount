@@ -44,7 +44,7 @@ do
     report="Installing/Updating"
     updatingOrInstalling $report $installPath $i
     echo "$report $i..."
-    install "~/.qam-tmp/$i.sh" "$installPath/$i"
+    install "$HOME/.qam-tmp/$i.sh" "$installPath/$i"
 
 done
 
