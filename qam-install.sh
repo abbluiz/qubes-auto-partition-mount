@@ -33,7 +33,7 @@ do
     report="Installing/Updating"
     updatingOrInstalling $report $installPath $i
     echo "$report $i..."
-    install "$i.sh" "$installPath/$i"
+    install "./$i.sh" "$installPath/$i"
 
 done
 
