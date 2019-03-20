@@ -1,4 +1,6 @@
-# Motivation and Purpose
+# qubes-auto-partition-mount
+
+##
 
 If you want partitions to be automatically mounted on your App VMs in Qubes OS, you'll have to manually do so. You'll also have to unmount it when you are done using it. 
 
