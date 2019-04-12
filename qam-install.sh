@@ -37,4 +37,4 @@ do
 
 done
 
-echo "All scripts installed and updated."
+echo "All qam scripts installed and updated."
